@@ -1,0 +1,184 @@
+/* Small Phone Style */
+@media (min-width: 320px) and (max-width: 767px){
+  header nav.bg-light{
+    padding: .5rem 1rem;
+  }
+  .navbar-light .navbar-brand{
+    width: 75%;
+  }
+  header ul.navbar-nav li {
+    display: flow-root;
+    position: relative;
+    margin-bottom: 7px;
+  }
+  header ul.navbar-nav li::after{
+    content: none;
+  }
+  .navbar-light .navbar-toggler{
+    padding: 3px 5px;
+  }
+  .home-slider{
+    margin-bottom: 0px;
+  }
+  .home-slider .item .slider__description {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .home-slider .item .slider__description p.title-desc {
+    font-size: 12px;
+  }
+  .home-slider .item .slider__description h1.content-title {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  .home-slider .item .slider__description h1.content-title::after{
+    bottom: -7px;
+  }
+  .home-slider .item .slider__description p.desc {
+    font-size: 9px;
+    line-height: 12px;
+  }
+  .ticket-search {
+    bottom: unset;
+    position: unset;
+    margin-top: 20px;
+  }
+  .ticket-search .nav-tabs .nav-link{
+    width: 33.3%;
+    font-size: 10px;
+    padding: 10px 0px;
+  }
+  .ticket-search .nav-tabs .nav-link img{
+    display: block;
+    margin: 0 auto;
+  }
+  .ticket-search .nav-tabs .nav-link.plane img{
+    margin: 6px auto 0px;
+  }
+  .hand-apps .big-title{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  img.barcode{
+    display: block;
+    margin: 0 auto;
+  }
+  .hand-apps .info-apps {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .deals h2.section-title{
+    text-align: center;
+  }
+  .button-more {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .deals-item{
+    margin-bottom: 20px;
+  }
+  .deals .row {
+    margin-bottom: 0px;
+  }
+  .section{
+    padding-top: 0px;
+  }
+  .banner{
+    margin-bottom: 40px;
+  }
+  .partner-list li {
+    margin: 0px 0px 20px;
+    width: 24%;
+  }
+  .newsletter .form-control {
+    margin: 0px 0px;
+    width: 60%;
+  }
+  .newsletter button.btn-blue{
+    width: auto;
+  }
+  .socmed ul {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .socmed ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .widget-item{
+    margin-bottom: 30px;
+  }
+  .copyright p {
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .hero-image {
+    margin-bottom: 25px;
+  }
+  .head-search-content .filter{
+    display: block;
+  }
+  .list-class {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 6px;
+  }
+  .head-content{
+    margin-bottom: 20px;
+  }
+  .sorting-head ul li{
+    width: 100% !important;
+  }
+  .sorting-content .box-sort li:first-child{
+    width: 100%;
+  }
+  .sorting-content .box-sort{
+    padding: 10px 10px 10px 10px;
+  }
+  .sorting-content .box-sort li:nth-child(2),
+  .sorting-content .box-sort li:nth-child(4),
+  .sorting-content .box-sort li:nth-child(6) {
+    width: 42%;
+  }
+  .sorting-content .box-sort li:nth-child(3) {
+    width: 13%;
+  }
+  .sorting-content .box-sort li{
+    margin-bottom: 15px;
+  }
+  .sorting-content .box-sort li.action{
+    width: 100%;
+    text-align: center;
+  }
+  .sorting-content .box-sort .bottom {
+    display: inline-block;
+    position: initial;
+    bottom: 0px;
+    font-size: 13px;
+    left: 0px;
+  }
+  .sorting-content .box-sort .bottom a.info {
+    margin-right: 40px;
+  }
+  .sorting-content .box-sort .bottom a.info.right {
+    margin-right: 0px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+}
+/* End tab Phone Style */
