@@ -359,6 +359,10 @@ h2.section-title{
   font-size: 23px;
   font-weight: 300;
 }
+.slider .item .slider__description p.titlee-desc{
+  font-size: 18px;
+  font-weight: 230;
+}
 .slider .item .slider__description h1.content-title{
   font-size: 43px;
   font-weight: 300;
@@ -543,8 +547,15 @@ h2.section-title{
 .apps .big-title{
   color: #00abc5;
   font-family: 'Open Sans',sans-serif;
-  font-weight: 300;
-  font-size: 43px;
+  font-weight: 250;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.apps .bigg-title{
+  color: #00abc5;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 250;
+  font-size: 24px;
   margin-bottom: 40px;
 }
 .apps .info-apps{
